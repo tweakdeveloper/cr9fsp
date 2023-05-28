@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@primer/octicons-react", "virtual:b85a0cf5802c5a8a2fa6933fcab1153f0598cb9c57f1641ee6c87a44deebd935680e9a63fdac923ad9b9b66c0f34b307d66d9bb837e88f34330999c589556335#npm:19.1.0"],\
             ["@types/react", "npm:18.2.7"],\
             ["@types/react-dom", "npm:18.2.4"],\
             ["@typescript-eslint/eslint-plugin", "virtual:b85a0cf5802c5a8a2fa6933fcab1153f0598cb9c57f1641ee6c87a44deebd935680e9a63fdac923ad9b9b66c0f34b307d66d9bb837e88f34330999c589556335#npm:5.59.7"],\
@@ -459,6 +460,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@npmcli/move-file", "npm:2.0.1"],\
             ["mkdirp", "npm:1.0.4"],\
             ["rimraf", "npm:3.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@primer/octicons-react", [\
+        ["npm:19.1.0", {\
+          "packageLocation": "./.yarn/cache/@primer-octicons-react-npm-19.1.0-a94a76c5e8-07d69f6dce.zip/node_modules/@primer/octicons-react/",\
+          "packageDependencies": [\
+            ["@primer/octicons-react", "npm:19.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:b85a0cf5802c5a8a2fa6933fcab1153f0598cb9c57f1641ee6c87a44deebd935680e9a63fdac923ad9b9b66c0f34b307d66d9bb837e88f34330999c589556335#npm:19.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/@primer-octicons-react-virtual-c49f65fb8e/0/cache/@primer-octicons-react-npm-19.1.0-a94a76c5e8-07d69f6dce.zip/node_modules/@primer/octicons-react/",\
+          "packageDependencies": [\
+            ["@primer/octicons-react", "virtual:b85a0cf5802c5a8a2fa6933fcab1153f0598cb9c57f1641ee6c87a44deebd935680e9a63fdac923ad9b9b66c0f34b307d66d9bb837e88f34330999c589556335#npm:19.1.0"],\
+            ["@types/react", "npm:18.2.7"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1305,6 +1328,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["cr9fsp", "workspace:."],\
+            ["@primer/octicons-react", "virtual:b85a0cf5802c5a8a2fa6933fcab1153f0598cb9c57f1641ee6c87a44deebd935680e9a63fdac923ad9b9b66c0f34b307d66d9bb837e88f34330999c589556335#npm:19.1.0"],\
             ["@types/react", "npm:18.2.7"],\
             ["@types/react-dom", "npm:18.2.4"],\
             ["@typescript-eslint/eslint-plugin", "virtual:b85a0cf5802c5a8a2fa6933fcab1153f0598cb9c57f1641ee6c87a44deebd935680e9a63fdac923ad9b9b66c0f34b307d66d9bb837e88f34330999c589556335#npm:5.59.7"],\
